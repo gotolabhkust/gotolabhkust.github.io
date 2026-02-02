@@ -3,41 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-# Website name (set in params.yaml under hugoblox.branding.name)
-title: ''
+title: Wowchemy Research Group # Website name
 baseURL: 'https://example.com/' # Website URL
-
-############################
-## PAGE OPTIONS
-############################
-
-cascade:
-  # Docs folder options
-  - _target:
-      path: /docs/**
-    editable: true
-    show_breadcrumb: true
-    # Hide date from Next In Series
-    show_date: false
-    # Show date modified at end of content
-    show_date_updated: true
-  # Blog post options
-  - _target:
-      path: /blog/**
-      kind: page
-    pager: true
-    editable: true
-    hide_date: false
-    show_date_updated: true
-    reading_time: true
-    commentable: true
-    show_related: true
-    share: true
-    # Just use Breadcrumb for navigation on blog post pages?
-    show_breadcrumb: false
-    header:
-      navbar:
-        enable: true
 
 ############################
 ## LANGUAGE
@@ -52,8 +19,6 @@ removePathAccents: true
 ## ADVANCED
 ############################
 
-build:
-  writeStats: true
 enableGitInfo: false
 summaryLength: 30
 pagination:
@@ -61,22 +26,25 @@ pagination:
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles: [".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
-enableInlineShortcodes: true
+ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
+permalinks:
+  authors: '/author/:slug/'
+  tags: '/tag/:slug/'
+  categories: '/category/:slug/'
+  publication_types: '/publication-type/:slug/'
 disableAliases: true
 outputs:
-  home: [HTML, RSS, WebAppManifest, headers, redirects, backlinks]
-  page: [HTML]
+  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
-  quality: 90
+  quality: 75
   anchor: smart
-  hint: picture
 timeout: 600000
 taxonomies:
   tag: tags
   category: categories
+  publication_type: publication_types
   author: authors
 markup:
   _merge: deep
@@ -92,6 +60,4 @@ related:
 security:
   _merge: deep
 sitemap:
-  _merge: deep
-minify:
   _merge: deep
