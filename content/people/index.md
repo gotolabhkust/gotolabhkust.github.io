@@ -17,6 +17,7 @@ sections:
           - Administration
           - Visitors
           - Alumni
+          #- Research Assitant
       sort_by: Params.last_name
       sort_ascending: true
     design:

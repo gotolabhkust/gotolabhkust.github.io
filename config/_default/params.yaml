@@ -45,11 +45,12 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    #notice: '© {year} Me. This work is licensed under {license}'
+    notice: 'Copyright © {year} Goto Lab. All rights reserved.'
     license:
-      enable: true
+      enable: false # true
       allow_derivatives: false
-      share_alike: true
+      share_alike: false # true
       allow_commercial: false
 
 # Localization
