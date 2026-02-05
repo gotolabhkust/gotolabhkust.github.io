@@ -40,7 +40,7 @@ sections:
       coordinates:
         latitude: '22.8916085'
         longitude: '113.478333'
-      directions: Enter E4 and take the stairs to Office BSBE on Floor 3
+      directions: Enter E4 and take the stairs to Office BSBE on Floor
       office_hours:
         - 'Weekdays 9:00 to 19:00'
       #  - 'Wednesday 09:00 to 10:00'
@@ -65,8 +65,4 @@ sections:
 
     #design:
     #  columns: '1'
-    
-  - block: footer
-    content:
-      text: ""  # 空文本，覆盖默认版权文字
 ---
