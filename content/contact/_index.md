@@ -28,8 +28,7 @@ sections:
   - block: contact
     content:
       title: Contact
-      email: gotolabhkust.cs@gmail.com
-      phone: 888 888 88 88
+      email: gotolabhkust@gmail.com
       address:
         street: No.1 Du Xue Rd
         city: Guangzhou
@@ -40,7 +39,7 @@ sections:
       coordinates:
         latitude: '22.8916085'
         longitude: '113.478333'
-      directions: Enter E4 and take the stairs to Office BSBE on Floor
+      directions: Enter Building E4, then take the stairs or lift to the BSBE Office on Floor 3
       office_hours:
         - 'Weekdays 9:00 to 19:00'
       #  - 'Wednesday 09:00 to 10:00'

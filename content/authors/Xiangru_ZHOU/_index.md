@@ -10,7 +10,7 @@ last_name: ZHOU
 superuser: false
 
 # Role/position
-role: Research Assistant
+role: Phd Student
 
 # Organizations/Affiliations
 organizations:
@@ -72,7 +72,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Research Assitants
+  - Phd Students
 ---
 
 Research Assistant with an M.Sc. degree from The Hong Kong Polytechnic University. Software and hardware engineer specializing in image processing, with a focus on the integration of AI and biomedical engineering.

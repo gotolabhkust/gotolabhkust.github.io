@@ -10,3 +10,5 @@ banner:
   caption: ''
   image: ''
 ---
+
+<hr style="border: none; border-top: 1px solid #eee; margin: 10px 0 15px 0;" />
