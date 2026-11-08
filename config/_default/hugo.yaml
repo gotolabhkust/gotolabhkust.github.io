@@ -4,7 +4,8 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Goto Lab # Website name
-baseURL: 'https://localhost:1313/' # Website URL
+# baseURL: 'https://localhost:1313/' # Website URL
+baseURL: 'https://gotolabhkust.github.io/' # Website URL
 
 ############################
 ## LANGUAGE
