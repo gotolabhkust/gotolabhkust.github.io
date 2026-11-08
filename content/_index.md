@@ -28,8 +28,8 @@ sections:
         </div>
 
         <hr style="border: none; border-top: 1px solid #eee; margin: 10px 0 15px 0;" />
-        
+
         <div style="text-align: center; margin-top: 0; margin-bottom: 20px;">
-            <img src="media/Introduce.png" alt="Introduce" style="max-width: 100%; height: auto;">
+            <img src="/media/Introduce.png" alt="Introduce" style="max-width: 100%; height: auto;">
         </div>
 ---
