@@ -64,7 +64,7 @@ education:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'staff@hkust-gz.edu.cn' # 'xiangruzhou@hkust-gz.edu.cn'
+#email: 'staff@hkust-gz.edu.cn' # 'xiangruzhou@hkust-gz.edu.cn'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
@@ -75,4 +75,4 @@ user_groups:
   - Phd Students
 ---
 
-Research Assistant with an M.Sc. degree from The Hong Kong Polytechnic University. Software and hardware engineer specializing in image processing, with a focus on the integration of AI and biomedical engineering.
+PhD student specializing in FRET imaging and data analysis.
